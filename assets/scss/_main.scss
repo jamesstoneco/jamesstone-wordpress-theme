@@ -59,7 +59,7 @@ HEADER STYLES
 		list-style: none;
 	}
 }
-    
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -144,17 +144,17 @@ POSTS & CONTENT STYLES
 		display: block; 
 		clear: both; 
 	}
-			
+
 	video, object {
 		max-width: 100%;
 		height: auto;
-		}
+	}
 
 	pre {
 		background: #eee;
 		border: 1px solid #cecece;
 		padding: 10px;
-		}
+	}
 
 } 
 
@@ -185,19 +185,19 @@ POSTS & CONTENT STYLES
 /*********************
 IMAGE GALLERY STYLES
 *********************/
-	.gallery {
+.gallery {
 
-		dl {
+	dl {
 
-			a {}
+		a {}
 
-			img {}
+		img {}
 
-		}
+	}
 
-		dt {}
+	dt {}
 
-		dd {}
+	dd {}
 
 } 
 
@@ -368,7 +368,7 @@ COMMENT STYLES
 
 		&:hover,
 		&:focus {
-		
+
 		}
 
 	} // end .commentlist .comment-reply-link  
@@ -415,9 +415,9 @@ COMMENT FORM STYLES
 				border-color: #fbc2c4;
 				background-color: #f6e7eb;
 				-webkit-box-shadow: none;
-				   -moz-box-shadow: none;
-				    -ms-box-shadow: none;
-						box-shadow: none;
+				-moz-box-shadow: none;
+				-ms-box-shadow: none;
+				box-shadow: none;
 			}
 		}
 
@@ -501,7 +501,7 @@ FOOTER STYLES
 	clear: both;
 	margin-top: 1em;
 }
-	
+
 /*********************
 FOUNDATION STYLES
 *********************/
@@ -511,6 +511,17 @@ PLUGIN STYLES
 *********************/
 // Makes Gravity Forms play nice with Foundation Form styles
 .gform_body ul {
-    list-style: none outside none;
-    margin: 0;
+	list-style: none outside none;
+	margin: 0;
 }
+
+// JMS STYLES
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.attachment-full.size-full.wp-post-image {
+	max-width: 320px;
+}
+

@@ -45,11 +45,12 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+$global-font-size: 112.5%;
+// $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #2199e8,
+  primary: #54cddf,
   secondary: #777,
   success: #3adb76,
   warning: #ffae00,
@@ -61,7 +62,7 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
-$body-font-color: $black;
+$body-font-color: #66655d;
 $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
@@ -108,25 +109,33 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
-    'h3': 19,
-    'h4': 18,
-    'h5': 17,
-    'h6': 16,
+    'h1': 26,
+    'h2': 24,
+    'h3': 22,
+    'h4': 20,
+    'h5': 18,
+    'h6': 18,
   ),
   medium: (
-    'h1': 48,
-    'h2': 40,
-    'h3': 31,
-    'h4': 25,
-    'h5': 20,
-    'h6': 16,
+    'h1': 26,
+    'h2': 24,
+    'h3': 22,
+    'h4': 20,
+    'h5': 18,
+    'h6': 18,
   ),
 );
-$header-color: inherit;
-$header-lineheight: 1.4;
-$header-margin-bottom: 0.5rem;
+
+    // 'h1': 48,
+    // 'h2': 40,
+    // 'h3': 31,
+    // 'h4': 25,
+    // 'h5': 20,
+    // 'h6': 16,
+
+$header-color: #76b4c5;
+$header-lineheight: 1.2;
+$header-margin-bottom: 1rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
@@ -559,7 +568,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $light-gray;
+$topbar-background: none;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
